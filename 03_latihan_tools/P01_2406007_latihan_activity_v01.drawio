@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Halaman-1" id="3VPQkaU8LuIlGmkhRvaE">
+    <mxGraphModel dx="1414" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BijYXHhsoMeuGE51b9SJ-3" edge="1" parent="1" source="BijYXHhsoMeuGE51b9SJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;spacing=1.5;" target="BijYXHhsoMeuGE51b9SJ-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BijYXHhsoMeuGE51b9SJ-1" parent="1" style="ellipse;html=1;strokeWidth=2;fontFamily=Times New Roman;spacing=1.5;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="399" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BijYXHhsoMeuGE51b9SJ-5" edge="1" parent="1" source="BijYXHhsoMeuGE51b9SJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;spacing=1.5;" target="BijYXHhsoMeuGE51b9SJ-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BijYXHhsoMeuGE51b9SJ-2" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=11;fontFamily=Times New Roman;spacing=1.5;" value="Buka Daftar Peralatan" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="BijYXHhsoMeuGE51b9SJ-7" edge="1" parent="1" source="BijYXHhsoMeuGE51b9SJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;spacing=1.5;" target="BijYXHhsoMeuGE51b9SJ-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BijYXHhsoMeuGE51b9SJ-4" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;fontSize=11;fontFamily=Times New Roman;spacing=1.5;" value="Lihat Informasi Ketersediaan" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="BijYXHhsoMeuGE51b9SJ-6" parent="1" style="ellipse;html=1;shape=endState;strokeWidth=2;fontFamily=Times New Roman;spacing=1.5;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="399" y="510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
