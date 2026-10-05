@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Halaman-1" id="-BlATtmzO_b9gFSQejHE">
+    <mxGraphModel dx="1014" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m-2-d628Ktg5jdT24Fzd-2" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=280;height=50;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;&quot;&gt;Sistem Akademik&lt;/font&gt;" vertex="1">
+          <mxGeometry height="750" width="541" x="557" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="m-2-d628Ktg5jdT24Fzd-6" parent="m-2-d628Ktg5jdT24Fzd-2" style="whiteSpace=wrap;html=1;shapeInside=1;rounded=0;shape=ellipse;perimeter=ellipsePerimeter;" value="&lt;font face=&quot;Times New Roman&quot;&gt;&amp;nbsp;Kelola jadwal kuliah&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="323" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="m-2-d628Ktg5jdT24Fzd-7" parent="m-2-d628Ktg5jdT24Fzd-2" style="whiteSpace=wrap;html=1;shapeInside=1;fontFamily=Times New Roman;rounded=0;shape=ellipse;perimeter=ellipsePerimeter;" value="Lihat Jadwal Kuliah" vertex="1">
+          <mxGeometry height="80" width="120" x="123" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="m-2-d628Ktg5jdT24Fzd-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Mahasiswa&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="490" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="m-2-d628Ktg5jdT24Fzd-10" edge="1" parent="1" source="m-2-d628Ktg5jdT24Fzd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="m-2-d628Ktg5jdT24Fzd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m-2-d628Ktg5jdT24Fzd-12" edge="1" parent="1" source="m-2-d628Ktg5jdT24Fzd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="m-2-d628Ktg5jdT24Fzd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m-2-d628Ktg5jdT24Fzd-11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Mahasiswa&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="1130" y="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
