@@ -3,7 +3,7 @@ Admin akademik mengelola jadwal kuliah. Dalam latihan ini, mahasiswa
 tidak mengelola jadwal dan admin tidak dihubungkan dengan fungsi
 melihat jadwal sebagai pengguna mahasiswa.
 
-Koreksi Yang Dilakukan :
+### Koreksi Yang Dilakukan :
 1. memindahkan aktor mahasiswa ke luar sistem, karena Aktor adalah pihak eksternal yang berinteraksi dengan sistem.
 2. mengubah lihat jadwal kuliah menjadi elips, karena usecase pada UML digambar bentuk elips
 3. menghubungkan aktor mahasiswa dengan lihat jadwal kuliah, karena aktor mahasiswa dan dosen dihubungkan ke perannya (mahasiswa ke lihat jadwal kuliah) , (dosen ke kelola jadwal kuliah)
