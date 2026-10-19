@@ -79,7 +79,7 @@ realisasinya ditunjukkan secara eksplisit.
 | Kelompok | Isi |
 |---|---|
 | Tetap dari P2/P3 | Aktor Mahasiswa, Admin Akademik, Dosen Wali; SIA-UC01 sampai SIA-UC06; «include» SIA-UC03 ke SIA-UC04; «extend» SIA-UC05 ke SIA-UC03 beserta condition dan extension point; asosiasi Mahasiswa ke SIA-UC01, SIA-UC03, SIA-UC05; Admin Akademik ke SIA-UC02; Dosen Wali ke SIA-UC06 |
-| Berubah | Tidak ada asosiasi yang dipindahkan. Perubahan hanya pada kerapian notasi: Mahasiswa dipastikan berada di luar batas sistem (tidak lagi menjadi anak elemen frame), garis «extend» yang menggantung disambungkan ke sumbernya, ID use case ditambahkan pada elips, dan nama diseragamkan dengan katalog P4 |
+| Berubah | Tidak ada asosiasi yang dipindahkan. Perubahan hanya pada kerapian notasi: Mahasiswa dipastikan berada di luar batas sistem (tidak lagi menjadi anak elemen frame), garis «extend» yang menggantung disambungkan ke sumbernya, dan nama elips diseragamkan dengan katalog P4 |
 | Ditambah P4 | Aktor Civitas Akademika dan Dosen; dua generalization aktor; SIA-UC07, SIA-UC08, SIA-UC09; SIA-UC10 beserta SIA-UC11, SIA-UC12, SIA-UC13 dan tiga generalization use case; collaboration SIA-CO01 dan SIA-CO02 beserta dua realization |
 
 ## 5. Pemetaan Nomor Use Case Lama ke Katalog P4

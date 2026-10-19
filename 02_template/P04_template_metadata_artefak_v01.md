@@ -1,0 +1,12 @@
+- Artefak: P04_2406007_SIA_usecase_v01.drawio / .png
+- Nama diagram: Diagram Use Case SIA Pertemuan 4 (kumulatif)
+- Versi: v01
+- Tanggal: 2026-10-19
+- Sistem: Sistem Informasi Akademik
+- Aktor (5): Civitas Akademika, Mha siswa, Dosen, Admin Akademik, Dosen Wali
+- Use case (13): SIA-UC01 … SIA-UC13
+- Collaboration (2): SIA-CO01, SIA-CO02
+- Relasi generalisasi: UC11/12/13 → UC10 (UC); Mha siswa & Dosen → Civitas (aktor)
+- Relasi realization: CO01 → UC08; CO02 → UC09
+- Relasi include/extend: UC03 «include» UC04; UC05 «extend» UC03
+- Syarat kumulatif: semua elemen P3 tetap ada
