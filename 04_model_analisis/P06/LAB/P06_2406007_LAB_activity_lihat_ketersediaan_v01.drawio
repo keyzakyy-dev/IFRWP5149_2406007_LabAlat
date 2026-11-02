@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="CukzIK05r8SMFEsrL3qr">
+    <mxGraphModel dx="1414" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Peminjam&lt;/font&gt;" vertex="1">
+          <mxGeometry height="800" width="240" x="185" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-5" edge="1" parent="GcrMBlOoj__PSOQu5ujN-1" source="GcrMBlOoj__PSOQu5ujN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="GcrMBlOoj__PSOQu5ujN-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-3" parent="GcrMBlOoj__PSOQu5ujN-1" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="100" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-4" parent="GcrMBlOoj__PSOQu5ujN-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Membuka fungsi Lihat Ketersediaan Peralatan&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="45" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;Sistem&lt;/font&gt;" vertex="1">
+          <mxGeometry height="800" width="295" x="425" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-9" edge="1" parent="GcrMBlOoj__PSOQu5ujN-2" source="GcrMBlOoj__PSOQu5ujN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="GcrMBlOoj__PSOQu5ujN-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-6" parent="GcrMBlOoj__PSOQu5ujN-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Menampilkan daftar&lt;br&gt;peralatan beserta status ketersediaannya&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-11" edge="1" parent="GcrMBlOoj__PSOQu5ujN-2" source="GcrMBlOoj__PSOQu5ujN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="GcrMBlOoj__PSOQu5ujN-10">
+          <mxGeometry relative="1" x="0.2421" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="335" />
+              <mxPoint x="255" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-16" connectable="0" parent="GcrMBlOoj__PSOQu5ujN-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;font face=&quot;Times New Roman&quot;&gt;[tersedia]&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1284" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-13" edge="1" parent="GcrMBlOoj__PSOQu5ujN-2" source="GcrMBlOoj__PSOQu5ujN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="GcrMBlOoj__PSOQu5ujN-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-15" connectable="0" parent="GcrMBlOoj__PSOQu5ujN-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;font face=&quot;Times New Roman&quot;&gt;[tidak tersedia]&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1143" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-8" parent="GcrMBlOoj__PSOQu5ujN-2" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Peralatan&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Tersedia?&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="100" x="70" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-18" edge="1" parent="GcrMBlOoj__PSOQu5ujN-2" source="GcrMBlOoj__PSOQu5ujN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="GcrMBlOoj__PSOQu5ujN-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-10" parent="GcrMBlOoj__PSOQu5ujN-2" style="rhombus;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="105" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-14" edge="1" parent="GcrMBlOoj__PSOQu5ujN-2" source="GcrMBlOoj__PSOQu5ujN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="GcrMBlOoj__PSOQu5ujN-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-12" parent="GcrMBlOoj__PSOQu5ujN-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Menampilkan daftar&lt;br&gt;peralatan beserta status ketersediaannya&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-17" parent="GcrMBlOoj__PSOQu5ujN-2" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="105" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="GcrMBlOoj__PSOQu5ujN-7" edge="1" parent="1" source="GcrMBlOoj__PSOQu5ujN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="GcrMBlOoj__PSOQu5ujN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
