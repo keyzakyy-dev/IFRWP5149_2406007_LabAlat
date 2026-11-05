@@ -1,0 +1,11 @@
+- Artefak: P06_2406007_SIA_activity_v01.drawio / .png
+- Nama diagram: Activity Diagram SIA Pertemuan 6 (Input Nilai Mata Kuliah sampai Lihat KHS)
+- Versi: v01
+- Tanggal: 2026-11-05
+- Sistem: Sistem Informasi Akademik
+- Swimlane/aktor (4): Dosen, Sistem, Admin Akademik, Mahasiswa
+- Tabel skenario sumber: SIA-UC08 Input Nilai Mata Kuliah dan SIA-UC09 Lihat KHS (Jobsheet Pertemuan 5, sesuaikan dengan ID tabel pada dokumen P05 Anda)
+- Unsur activity yang digunakan: initial node (1), action, control flow, decision (1: Nilai sudah lengkap, guard [lengkap] / [belum lengkap]), merge (1), fork (1) dan join (1), activity final node (1), swimlane (4)
+- Fork/join: paralel Menerbitkan KHS pada portal akademik dan Mengirim pemberitahuan hasil studi kepada mahasiswa, disatukan join sebelum Mahasiswa melihat KHS
+- Unsur proses baru: tidak ada
+- Syarat: berkas P04 dan dokumen P05 tidak diubah; diagram P04 hanya acuan nama aktor

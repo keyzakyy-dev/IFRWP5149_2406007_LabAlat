@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="xng4FSolVFb15jZzAMXn" name="Page-2">
+    <mxGraphModel dx="720" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="910" width="330" x="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-3" parent="VGDoAbCpgYBNq4BJT-Kf-1" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="140" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-8" parent="VGDoAbCpgYBNq4BJT-Kf-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="mengonfirmasi pencetakan" vertex="1">
+          <mxGeometry height="60" width="160" x="80" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="Sistem" vertex="1">
+          <mxGeometry height="910" width="310" x="450" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-10" edge="1" parent="VGDoAbCpgYBNq4BJT-Kf-2" source="VGDoAbCpgYBNq4BJT-Kf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="VGDoAbCpgYBNq4BJT-Kf-6">
+          <mxGeometry relative="1" x="-0.0408" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="170" />
+              <mxPoint x="290" y="430" />
+              <mxPoint x="155" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-14" connectable="0" parent="VGDoAbCpgYBNq4BJT-Kf-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="tidak" vertex="1">
+          <mxGeometry relative="1" x="0.4709" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-11" edge="1" parent="VGDoAbCpgYBNq4BJT-Kf-2" source="VGDoAbCpgYBNq4BJT-Kf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="VGDoAbCpgYBNq4BJT-Kf-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-12" connectable="0" parent="VGDoAbCpgYBNq4BJT-Kf-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="ya, memilih cetak" vertex="1">
+          <mxGeometry relative="1" x="-0.1638" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-4" parent="VGDoAbCpgYBNq4BJT-Kf-2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="mahasiswa memilih&lt;div&gt;cetak bukti?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="85" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-5" parent="VGDoAbCpgYBNq4BJT-Kf-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="menampilkan bukti pengajuan dengan nomor pengajuan dan status menunggu keputusan" vertex="1">
+          <mxGeometry height="80" width="200" x="55" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-17" edge="1" parent="VGDoAbCpgYBNq4BJT-Kf-2" source="VGDoAbCpgYBNq4BJT-Kf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="VGDoAbCpgYBNq4BJT-Kf-16">
+          <mxGeometry relative="1" x="-0.1622" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="500" />
+              <mxPoint x="275" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-6" parent="VGDoAbCpgYBNq4BJT-Kf-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="menutup konfirmasi tanpa mencetak bukti dan pengajuan tetap tersimpan" vertex="1">
+          <mxGeometry height="80" width="200" x="55" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-18" edge="1" parent="VGDoAbCpgYBNq4BJT-Kf-2" source="VGDoAbCpgYBNq4BJT-Kf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="VGDoAbCpgYBNq4BJT-Kf-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-7" parent="VGDoAbCpgYBNq4BJT-Kf-2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="mencetak bukti pengajuan" vertex="1">
+          <mxGeometry height="60" width="160" x="75" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-20" edge="1" parent="VGDoAbCpgYBNq4BJT-Kf-2" source="VGDoAbCpgYBNq4BJT-Kf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="VGDoAbCpgYBNq4BJT-Kf-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-16" parent="VGDoAbCpgYBNq4BJT-Kf-2" style="rhombus;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="140" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-19" parent="VGDoAbCpgYBNq4BJT-Kf-2" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="140" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-9" edge="1" parent="1" source="VGDoAbCpgYBNq4BJT-Kf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="VGDoAbCpgYBNq4BJT-Kf-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-13" edge="1" parent="1" source="VGDoAbCpgYBNq4BJT-Kf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="VGDoAbCpgYBNq4BJT-Kf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VGDoAbCpgYBNq4BJT-Kf-15" edge="1" parent="1" source="VGDoAbCpgYBNq4BJT-Kf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="VGDoAbCpgYBNq4BJT-Kf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

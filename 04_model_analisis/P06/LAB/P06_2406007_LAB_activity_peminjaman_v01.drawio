@@ -82,7 +82,7 @@
         <mxCell id="9PZuMNBn0K4W1YXZ3YFX-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Petugas Laboratorium&lt;/font&gt;" vertex="1">
           <mxGeometry height="960" width="240" x="545" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="9PZuMNBn0K4W1YXZ3YFX-19" parent="9PZuMNBn0K4W1YXZ3YFX-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Menerima Pemberitahuan&lt;br&gt;pengajuan tidak terpenuh&lt;/font&gt;" vertex="1">
+        <mxCell id="9PZuMNBn0K4W1YXZ3YFX-19" parent="9PZuMNBn0K4W1YXZ3YFX-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Menerima Pemberitahuan&lt;br&gt;pengajuan tidak terpenuhi&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="-450" y="470" as="geometry" />
         </mxCell>
         <mxCell id="9PZuMNBn0K4W1YXZ3YFX-8" parent="9PZuMNBn0K4W1YXZ3YFX-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font face=&quot;Times New Roman&quot;&gt;Memproses Keputusan&lt;br&gt;Peminjaman&lt;/font&gt;" vertex="1">
