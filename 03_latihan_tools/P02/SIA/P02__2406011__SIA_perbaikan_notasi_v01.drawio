@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="YqquxZnLCsiWHYu-XfIC">
+    <mxGraphModel dx="1266" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="REZfNbx5XJ6BwKJFZDDi-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=379;height=96;" value="Sistem Laboratorium" vertex="1">
+          <mxGeometry height="703" width="707" x="201" y="21" as="geometry" />
+        </mxCell>
+        <mxCell id="REZfNbx5XJ6BwKJFZDDi-6" parent="REZfNbx5XJ6BwKJFZDDi-1" style="whiteSpace=wrap;html=1;rounded=0;shape=ellipse;perimeter=ellipsePerimeter;" value="Kelola jadwal kuliah" vertex="1">
+          <mxGeometry height="70" width="140" x="115" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="HAw08S2EqwMNitUNGksf-3" parent="REZfNbx5XJ6BwKJFZDDi-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Lihat jadwal kuliah" vertex="1">
+          <mxGeometry height="66" width="149" x="133" y="371" as="geometry" />
+        </mxCell>
+        <mxCell id="REZfNbx5XJ6BwKJFZDDi-10" edge="1" parent="1" source="REZfNbx5XJ6BwKJFZDDi-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" target="REZfNbx5XJ6BwKJFZDDi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAw08S2EqwMNitUNGksf-4" edge="1" parent="1" source="REZfNbx5XJ6BwKJFZDDi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="HAw08S2EqwMNitUNGksf-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REZfNbx5XJ6BwKJFZDDi-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="60" width="30" x="201" y="395" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

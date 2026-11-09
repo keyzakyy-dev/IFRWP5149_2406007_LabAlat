@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" pages="1">
+  <diagram name="SIA-UC11" id="uNhs2quc3Eqlmq1OC3aU">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uc11-L1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Admin Akademik" vertex="1">
+          <mxGeometry height="840" width="340" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s" parent="uc11-L1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="135" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a" parent="uc11-L1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Membuka fungsi Tambah Data Mahasiswa" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="b" parent="uc11-L1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Mengisi data mahasiswa baru" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="uc11-L1" source="s" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11-L2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Sistem" vertex="1">
+          <mxGeometry height="840" width="500" x="380" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c" parent="uc11-L2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Menampilkan formulir data mahasiswa baru" vertex="1">
+          <mxGeometry height="60" width="220" x="205" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="d" parent="uc11-L2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Memeriksa kelengkapan data" vertex="1">
+          <mxGeometry height="60" width="220" x="205" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e" parent="uc11-L2" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Data lengkap?" vertex="1">
+          <mxGeometry height="80" width="110" x="260" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="f" parent="uc11-L2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Menyimpan data mahasiswa baru" vertex="1">
+          <mxGeometry height="60" width="220" x="205" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="g" parent="uc11-L2" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="300" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="h" parent="uc11-L2" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Menampilkan pesan data tidak lengkap" vertex="1">
+          <mxGeometry height="60" width="220" x="30" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="uc11-L2" source="d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="e">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="uc11-L2" source="e" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" connectable="0" parent="e6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[lengkap]" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="uc11-L2" source="f" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="g">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="uc11-L2" source="e" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="h">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" connectable="0" parent="e8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[belum lengkap]" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="h" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

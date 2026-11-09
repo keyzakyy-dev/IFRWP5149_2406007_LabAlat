@@ -1,12 +1,13 @@
-- Artefak: P04_2406007_SIA_usecase_v01.drawio / .png
-- Nama diagram: Diagram Use Case SIA Pertemuan 4 (kumulatif)
-- Versi: v01
-- Tanggal: 2026-10-19
-- Sistem: Sistem Informasi Akademik
-- Aktor (5): Civitas Akademika, Mha siswa, Dosen, Admin Akademik, Dosen Wali
-- Use case (13): SIA-UC01 … SIA-UC13
-- Collaboration (2): SIA-CO01, SIA-CO02
-- Relasi generalisasi: UC11/12/13 → UC10 (UC); Mha siswa & Dosen → Civitas (aktor)
-- Relasi realization: CO01 → UC08; CO02 → UC09
-- Relasi include/extend: UC03 «include» UC04; UC05 «extend» UC03
-- Syarat kumulatif: semua elemen P3 tetap ada
+# Metadata Artefak — P04
+
+- **ID artefak:** 04
+- **Judul:** Use case diagram lanjutan: generalization dan collaboration
+- **Pertemuan:** 4
+- **Sumber skenario:** LAB-R07 s.d. LAB-R11; SIA-R07 s.d. SIA-R12
+- **Jenis/status:** kumulatif / telah direview
+- **Kakas:** draw.io
+- **Pembuat:** 2406007 Sayyid Dzaky Farhan
+- **Versi dan tanggal:** V01 19-10-2026
+- **Asumsi/pertanyaan:** Denda dan keterlambatan di luar cakupan; ditandai sebagai pertanyaan terbuka, bukan aturan yang dianggap selesai.
+- **Pemeriksaan:** Diagram kumulatif LAB (LAB-UC01 s.d. LAB-UC12) dan SIA (SIA-UC01 s.d. SIA-UC13). Aktor SIA (5): Civitas Akademika, Mahasiswa, Dosen, Admin Akademik, Dosen Wali. Generalization use case SIA-UC11/12/13 ke SIA-UC10 dan aktor Mahasiswa/Dosen ke Civitas. Collaboration SIA-CO01→SIA-UC08, SIA-CO02→SIA-UC09. Relasi realization digambar putus-putus dengan segitiga kosong.
+- **Riwayat revisi:** v01 19-10-2026 draf awal.
