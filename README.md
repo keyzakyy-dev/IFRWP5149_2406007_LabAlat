@@ -29,7 +29,6 @@
 
 ## 📂 Daftar Isi
 
-- [Ringkasan progres](#ringkasan-progres)
 - [Struktur folder](#struktur-folder)
 - [Peta artefak per pertemuan](#peta-artefak-per-pertemuan)
   - [Pertemuan 1](#pertemuan-1--pengenalan-lingkungan-praktikum-dan-kakas)
@@ -38,10 +37,6 @@
   - [Pertemuan 4](#pertemuan-4--use-case-lanjutan-generalization-dan-collaboration)
   - [Pertemuan 5](#pertemuan-5--tabel-skenario-use-case)
   - [Pertemuan 6](#pertemuan-6--activity-diagram)
-- [Status / catatan tertunda](#status--catatan-tertunda)
-
-> [!NOTE]
-> Badge di atas dibaca dari `badges/status.json`. Perbarui angkanya tiap kali status artefak berubah, lalu push agar badge ikut berubah.
 
 **Keterangan status:** ✅ selesai / sudah diperiksa &nbsp;·&nbsp; ⬜ belum selesai &nbsp;·&nbsp; 🟡 sebagian selesai
 
