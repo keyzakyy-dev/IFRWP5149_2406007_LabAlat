@@ -1,5 +1,9 @@
 # Praktikum Analisis Berobjek — IFRWP5149
 
+![Status artefak](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkeyzakyy-dev%2FIFRWP5149_2406007_LabAlat%2Fmain%2Fbadges%2Fstatus.json&query=%24.selesai&suffix=%2F28&label=Artefak%20selesai&color=success)
+![Status tertunda](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkeyzakyy-dev%2FIFRWP5149_2406007_LabAlat%2Fmain%2Fbadges%2Fstatus.json&query=%24.pending&label=Tertunda&color=orange)
+![Pertemuan tuntas](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkeyzakyy-dev%2FIFRWP5149_2406007_LabAlat%2Fmain%2Fbadges%2Fstatus.json&query=%24.pertemuan_tuntas&suffix=%2F6&label=Pertemuan%20tuntas&color=blue)
+
 **NIM:** 2406007 — Sayyid Dzaky Farhan
 **Kakas:** draw.io
 
@@ -20,6 +24,8 @@
 - [Status / catatan tertunda](#status--catatan-tertunda)
 
 Keterangan status: ✅ selesai / sudah diperiksa; ⬜ belum selesai.
+
+> Badge di atas dibaca dari `badges/status.json` — perbarui angkanya tiap kali status artefak berubah, lalu push agar badge ikut berubah.
 
 ## Struktur folder
 
