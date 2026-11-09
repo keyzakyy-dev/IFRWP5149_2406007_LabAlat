@@ -121,21 +121,6 @@
 | Metadata | `02_template/P06_metadata_artefak_v01.md` | ✅ |
 | Logbook | `00_administrasi/P06_2406007_logbook_v01.md` | ✅ |
 
-## Status / catatan tertunda
-
-> [!WARNING]
-> Beberapa artefak masih perlu dikoreksi sebelum dianggap final.
-
-- **Branch `[tidak tersedia]`** diagram lihat ketersediaan LAB masih menyalin teks aksi cabang `[tersedia]`.
-- **Skenario alternatif/akhir LAB-UC04** di tabel P05 masih menyalin teks UC01.
-- **Tabel skenario LAB** belum dimuat ke `01_skenario/P05_2406007_LAB_skenario_v01.md` (baru indeks; tabel lengkap ada di drawio).
-- **PNG LAB** (keputusan, kelola data, peminjaman) perlu diekspor ulang dari sumber terkini setelah koreksi label.
-- **Diagram P03 LAB** masih memakai label "Proses **Kebutuhan** Peminjaman" dan aktor "Petugas/Kepala **Laboran**" (sudah diperbaiki pada P04).
-- **Kolom tujuan model analisis SIA P03** masih memakai ID kebutuhan (SIA-R01, …) alih-alih nama/ID use case.
-
-> [!TIP]
-> Setiap diagram LAB/SIA sudah memiliki padanan PNG, dan nama berkas keputusan sudah dinormalisasi.
-
 ---
 
 <div align="center">
