@@ -6,23 +6,18 @@
 
 <p><em>Kumpulan artefak analisis dan desain: use case, tabel skenario, dan activity diagram</em></p>
 
-![Status artefak](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkeyzakyy-dev%2FIFRWP5149_2406007_LabAlat%2Fmain%2Fbadges%2Fstatus.json&query=%24.selesai&suffix=%2F28&label=Artefak%20selesai&color=success)
-![Status tertunda](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkeyzakyy-dev%2FIFRWP5149_2406007_LabAlat%2Fmain%2Fbadges%2Fstatus.json&query=%24.pending&label=Tertunda&color=orange)
-![Pertemuan tuntas](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkeyzakyy-dev%2FIFRWP5149_2406007_LabAlat%2Fmain%2Fbadges%2Fstatus.json&query=%24.pertemuan_tuntas&suffix=%2F6&label=Pertemuan%20tuntas&color=blue)
-
 ![Kakas](https://img.shields.io/badge/Kakas-draw.io-F08705?logo=diagramsdotnet&logoColor=white)
 ![Notasi](https://img.shields.io/badge/Notasi-UML-informational)
 ![Kasus](https://img.shields.io/badge/Kasus-LAB%20%7C%20SIA-8A2BE2)
 
 <a href="#struktur-folder">Struktur Folder</a> ·
-<a href="#peta-artefak-per-pertemuan">Peta Artefak</a> ·
-<a href="#status--catatan-tertunda">Catatan Tertunda</a>
+<a href="#peta-artefak-per-pertemuan">Peta Artefak</a>
 
 </div>
 
 ---
 
-## Tentang
+## 👤 Tentang
 
 | Informasi | Keterangan |
 |---|---|
@@ -32,7 +27,7 @@
 | 🧪 **Kasus LAB** | Sistem Informasi Peminjaman dan Pengembalian Peralatan Laboratorium Kampus *(studi kasus terbimbing)* |
 | 🎓 **Kasus SIA** | Sistem Informasi Akademik *(tugas praktik)* |
 
-## Daftar Isi
+## 📂 Daftar Isi
 
 - [Ringkasan progres](#ringkasan-progres)
 - [Struktur folder](#struktur-folder)
@@ -50,7 +45,7 @@
 
 **Keterangan status:** ✅ selesai / sudah diperiksa &nbsp;·&nbsp; ⬜ belum selesai &nbsp;·&nbsp; 🟡 sebagian selesai
 
-## Struktur folder
+## 📂 Struktur folder
 
 | Folder | Isi |
 |---|---|
@@ -61,9 +56,9 @@
 | 📂 `04_model_analisis/P0N/{LAB,SIA}/` | Model analisis: tabel hubungan, diagram kumulatif, tabel skenario, activity diagram |
 | 📂 `06_laporan/` | Laporan singkat dan review jobsheet |
 
-## Peta artefak per pertemuan
+## 🧭 Peta artefak per pertemuan
 
-### Pertemuan 1 — Pengenalan lingkungan praktikum dan kakas
+### Pertemuan 1 : Pengenalan lingkungan praktikum dan kakas
 
 | Item | Berkas | Status |
 |---|---|:-:|
@@ -73,7 +68,7 @@
 | Logbook | `00_administrasi/P01_2406007_logbook_v01.md` | ✅ (9/9) |
 | Laporan singkat | `06_laporan/P01_2406007_laporan_singkat_v01.md` | ✅ |
 
-### Pertemuan 2 — Notasi use case dasar
+### Pertemuan 2 : Notasi use case dasar
 
 | Item | Berkas | Status |
 |---|---|:-:|
@@ -83,7 +78,7 @@
 | Review jobsheet | `06_laporan/P02_2406007_jobsheet_review_v01.md` (4 temuan) | ✅ |
 | Logbook | `00_administrasi/P02_2406007_logbook_v01.md` | ✅ |
 
-### Pertemuan 3 — Use case diagram: include/extend dan asosiasi
+### Pertemuan 3 : Use case diagram: include/extend dan asosiasi
 
 | Item | Berkas | Status |
 |---|---|:-:|
@@ -93,7 +88,7 @@
 | Review jobsheet | `06_laporan/P03_2406007_jobsheet_review_v01.md` (4 temuan) | ✅ |
 | Logbook | `00_administrasi/P03_2406007_logbook_v01.md` | ✅ (A13/B11 tuntas) |
 
-### Pertemuan 4 — Use case lanjutan: generalization dan collaboration
+### Pertemuan 4 : Use case lanjutan: generalization dan collaboration
 
 | Item | Berkas | Status |
 |---|---|:-:|
@@ -102,7 +97,7 @@
 | Metadata | `02_template/P04_metadata_artefak_v01.md` | ✅ |
 | Logbook | `00_administrasi/P04_2406007_logbook_v01.md` | ✅ (LAB 19/19, SIA 13/13) |
 
-### Pertemuan 5 — Tabel skenario use case
+### Pertemuan 5 : Tabel skenario use case
 
 | Item | Berkas | Status |
 |---|---|:-:|
@@ -112,7 +107,7 @@
 | Metadata | `02_template/P05_metadata_artefak_v01.md` | ✅ |
 | Logbook | `00_administrasi/P05_2406007_logbook_v01.md` | ✅ |
 
-### Pertemuan 6 — Activity diagram
+### Pertemuan 6 : Activity diagram
 
 | Item | Berkas | Status |
 |---|---|:-:|
